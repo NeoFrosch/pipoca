@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background-image: url(./assets/pipoca.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#main-grid {
+  display: grid;
+  grid-template-columns: 0.75fr 2fr;
+  grid-template-rows: 0.25fr 2fr 1fr;
+  grid-template-areas: 
+  "no contador"
+  "valdir pipocachievements"
+  "valdir gifs";
+
+  gap: 2rem;
+}
+
+#pipocachievements-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+
+  grid-area: pipocachievements;
+  
+  width: min-content;
+  height: min-content;
+}
+
+.conquista {
+  height: max-content;
+  width: max-content;
+
+  border: 2px solid black;
+
+  background-color: #127871; 
+  /* cor que está dentro do código da pipoca */
+}
+
+.conquista-texto {
+  font-size: 1.5rem;
+  text-align: center;
+
+  height: 15ch;
+  width: 20ch;
+}
+
+
+#contador {
+  grid-area: contador;
+}
+
+#gifs {
+  grid-area: gifs;
+}
+
+#valdir {
+  grid-area: valdir;
+}
+
+#valdir:hover {
+  cursor: pointer;
+}
+
+.text {
+  font-size: 4rem;
+}
+
+footer {
+  font-size: 18px;
+  font-weight: bold;
+}
