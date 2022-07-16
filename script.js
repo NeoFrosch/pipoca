@@ -18,7 +18,7 @@ function braum (){
 
   if(clicks == 20) {
     document.getElementById("conq3").innerHTML = "A maconha pode estragar sua vida, principalmente se for a Maconha de Modelar"
-    console.log("as vezes assassina o português, como o inesquecível &#34;a Jente &#34; e a massinha com C e O");
+    console.log("as vezes assassina o português, como o inesquecível &#34; a Jente &#34; e a massinha com C e O");
   }
 
   if(clicks == 25) {
@@ -46,11 +46,11 @@ function braum (){
   }
 
   if(clicks == 50) {
-    document.getElementById("conq9").innerHTML = "&#34;To vendo a bunda do Deki&#34;- Danse, AlosOn"
+    document.getElementById("conq9").innerHTML = "&#34; To vendo a bunda do Deki &#34;- Danse, AlosOn"
   }
 
   if(clicks == 55) {
-    document.getElementById("conq10").innerHTML = "BEM VINDO REFLECT SUP?"
+    document.getElementById("conq10").innerHTML = "BEM VINDO REFLECT!"
     console.log("SUP?")
   }
 
