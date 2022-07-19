@@ -83,7 +83,7 @@ function braum (){
 
   if(clicks == 700) {
     document.getElementById("conq1").innerHTML = "achou que tinha acabado? Achou errado, olha o console :braum:"
-    console.log("por fim, já que minha criatividade esgotou, feliz aniversauro, espero que encha o buxim de pedreiro, pipoca e whiskas!")
+    console.log("por fim, já que minha criatividade esgotou, feliz aniversauro, espero que encha o buxim de pedreiro, pipoca e whisky!")
   }
 
   if(clicks == 1000) {
